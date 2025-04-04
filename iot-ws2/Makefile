@@ -29,7 +29,7 @@ MGMT_SRC = $(SRC_DIR)/managementClient.cpp
 # Object files
 CLIENT_OBJ = $(BUILD_DIR)/ebikeClient.o
 SERVER_OBJ = $(BUILD_DIR)/ebikeGateway.o
-GEN_OBJ = $(BUILD_DIR)/generateEBikeFile.o
+GEN_OBJ = $(BUILD_DIR)/util/generateEBikeFile.o
 MGMT_OBJ = $(BUILD_DIR)/managementClient.o
 
 # Build rules
